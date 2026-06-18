@@ -1,0 +1,19 @@
+{
+  "name": "earlywire",
+  "owner": {
+    "name": "Baris Asa",
+    "url": "https://www.linkedin.com/in/barisasa/"
+  },
+  "metadata": {
+    "description": "Earlywire — curated marketing, growth, SEO & measurement intelligence for AI assistants. MCP connector + skill.",
+    "version": "1.1.0",
+    "repository": "https://github.com/barisasaa/earlywire"
+  },
+  "plugins": [
+    {
+      "name": "earlywire-marketing",
+      "description": "Routes marketing, growth, analytics, SEO, paid-media & measurement questions to the Earlywire wire (120+ curated practitioner sources, judged daily, citable summaries) alongside web search. Bundles the Earlywire MCP connector + the routing skill.",
+      "source": "./"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.barisasa.earlywire/wire",
+  "title": "Earlywire — Marketing & Growth Intelligence",
+  "description": "Marketing, growth & SEO intel: 120+ practitioner sources, judged daily, with citable summaries.",
+  "version": "1.1.0",
+  "websiteUrl": "https://earlywire.barisasa.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://earlywire.barisasa.com/mcp"
+    }
+  ]
+}
