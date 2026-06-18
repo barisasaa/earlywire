@@ -52,12 +52,9 @@ skill** → upload it. (Requires code execution enabled.)
 
 **Claude Code — pick one:**
 ```bash
-# plugin marketplace (also wires up the connector)
+# plugin marketplace — installs the skill AND the connector in one step
 /plugin marketplace add barisasaa/earlywire
 /plugin install earlywire-marketing
-
-# or the skills CLI
-npx skills add barisasaa/earlywire
 
 # or clone / curl the skill into place
 curl -L https://earlywire.barisasa.com/skill -o ew.zip \
